@@ -26,7 +26,11 @@ export default function SearchInput() {
             style={{ display: value ? undefined : 'none' }}
           />
         }
-        leftSection={<IconSearch size={14} />}
+        leftSection={<
+          IconSearch 
+          size={14} 
+          color="var(--textLowlight)"
+          />}
       />
 
     </div>

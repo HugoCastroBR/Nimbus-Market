@@ -11,7 +11,9 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        highlightBlue: "var(--foreground)"
+        highlightBlue: "var(--highlightBlue)",
+        textHighlight: "var(--textHighlight)",
+        textLowlight: "var(--textLowlight)",
       },
       screens: {
         xs: "480px",

@@ -6,6 +6,9 @@
   --background: #ffffff;
   --foreground: #171717;
   --highlightBlue: #0B6DC0;
+  --textHighlight: #ededed;
+  --textLowlight: #2e2e2e;
+
 }
 
 @media (prefers-color-scheme: light) {
@@ -13,6 +16,8 @@
     --background: #0a0a0a;
     --foreground: #ededed;
     --highlightBlue: #0B6DC0;
+    --textHighlight: #ededed;
+    --textLowlight: #2e2e2e;
   }
 }
 

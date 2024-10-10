@@ -10,7 +10,7 @@ export default function Logo() {
     >
       <h1
         className='
-          text-2xl font-bold text-gray-800
+          text-2xl font-bold text-textHighlight
           italic
         '
       >

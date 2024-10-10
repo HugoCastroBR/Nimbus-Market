@@ -22,6 +22,7 @@ export default function HeaderMenu() {
         >
           <IconShoppingCart
             size={30}
+            color='var(--textHighlight)'
           />
         </LinkButton>
         <LinkButton
@@ -29,6 +30,7 @@ export default function HeaderMenu() {
         >
           <IconUserCircle
             size={30}
+            color='var(--textHighlight)'
           />
         </LinkButton>
       </div>
