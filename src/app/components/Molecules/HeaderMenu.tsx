@@ -9,19 +9,19 @@ export default function HeaderMenu() {
   return (
     <div
       className='
-        flex justify-end items-center h-full w-1/2 xs:w-1/3 
+        flex justify-end items-center h-full w-1/3 xs:w-1/3 
       '
     >
       <div
         className='
-          flex justify-between items-center h-full w-20
+          flex justify-between items-center h-full w-16
         '
       >
         <LinkButton
           href="/"
         >
           <IconShoppingCart
-            size={30}
+            size={26}
             color='var(--textHighlight)'
           />
         </LinkButton>
@@ -29,7 +29,7 @@ export default function HeaderMenu() {
           href="/"
         >
           <IconUserCircle
-            size={30}
+            size={26}
             color='var(--textHighlight)'
           />
         </LinkButton>

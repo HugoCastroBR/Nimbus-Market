@@ -10,13 +10,14 @@ export default function SearchInput() {
   return (
     <div
       className='
-        flex justify-center items-center h-full w-1/2 xs:w-1/3 
+        flex justify-start xs:justify-center items-center h-full w-2/3 xs:w-1/3 
       '
     >
       <Input
         placeholder="Search"
-        className='w-5/6 xs:w-6/6'
+        className='w-6/6 xs:w-5/6'
         value={value}
+        size="xs"
         onChange={(event) => setValue(event.currentTarget.value)}
         rightSectionPointerEvents="all"
         rightSection={
