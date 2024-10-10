@@ -2,7 +2,10 @@
 import React from 'react'
 import { Provider } from 'react-redux';
 import store from '@/store';
-import ThemeProviders from './themeProviders';
+import { MantineProvider } from '@mantine/core';
+
+
+import '@mantine/core/styles.css';
 
 
 interface ProvidersProps {
@@ -14,9 +17,9 @@ const Providers = (
 ) => {
   return (
     <Provider store={store}>
-      <ThemeProviders>
+      <MantineProvider>
         {children}
-      </ThemeProviders>
+      </MantineProvider>
     </Provider>
 
 

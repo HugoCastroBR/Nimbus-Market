@@ -11,7 +11,11 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        highlightBlue: "var(--foreground)"
       },
+      screens: {
+        xs: "480px",
+      }
     },
   },
   plugins: [],

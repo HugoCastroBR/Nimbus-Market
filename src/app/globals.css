@@ -5,12 +5,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --highlightBlue: #0B6DC0;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --highlightBlue: #0B6DC0;
   }
 }
 

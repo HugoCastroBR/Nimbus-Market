@@ -1,29 +1,19 @@
 import React from 'react'
+import Logo from '../Atoms/Logo'
+import SearchInput from '../Molecules/SearchInput'
+import HeaderMenu from '../Molecules/HeaderMenu'
 
 const Header = () => {
   return(
     <div
         className='
-        w-full h-16 flex justify-between items-center bg-gray-300
+        w-full h-16 flex justify-between items-center bg-highlightBlue
         px-2 md:px-4 lg:px-8
         '
       >
-        <div>
-          <h1
-            className='
-            text-2xl font-bold text-gray-800
-            italic
-            '
-          >
-            Nimbus
-          </h1>
-        </div>
-        <div>
-          SEARCH
-        </div>
-        <div>
-          MENU
-        </div>
+        <Logo/>
+        <SearchInput/>
+        <HeaderMenu/>
       </div>
   )
 }
