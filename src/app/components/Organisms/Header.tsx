@@ -14,7 +14,7 @@ const Header = () => {
         <div
           className='
           w-full h-12 flex justify-between items-center bg-highlightBlue
-          px-2 md:px-4 lg:px-8
+          px-1 md:px-4 lg:px-8
           '
         >
           <Logo/>
