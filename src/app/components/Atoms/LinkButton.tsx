@@ -1,18 +1,22 @@
+'use client'
 import Link from 'next/link'
 import React from 'react'
 
 export interface LinkButtonProps {
-  href: string
-  children: React.ReactNode
+  href?: string
   style?: React.CSSProperties
   className?: string
+  onClick?: (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => void
+  children: React.ReactNode
+
 }
 
 export default function LinkButton({
   href,
   children,
   style,
-  className
+  className,
+  onClick
 }:LinkButtonProps) {
 
   return (
@@ -20,7 +24,9 @@ export default function LinkButton({
       <Link 
       className={className}
       style={style}
-      href={href}>
+      href={href || ''}
+      onClick={onClick || undefined}
+      >
         {children}
       </Link>
     </>
